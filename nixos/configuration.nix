@@ -12,6 +12,7 @@
     (modulesPath + "/installer/scan/not-detected.nix")
     ./disk-config.nix
     ./boot.nix
+    ./home-manager.nix
   ];
 
   networking.hostName = "1supportable";
