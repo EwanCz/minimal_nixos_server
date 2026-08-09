@@ -2,13 +2,14 @@
   ...
 }:
 {
-  home-manager.users.zethec = {
+  home-manager = {
     home = {
       username = "zethec";
       homeDirectory = "/home/zethec";
       stateVersion = "26.05";
 
     };
+
     programs = {
       git = {
         enable = true;
@@ -34,6 +35,5 @@
 
       };
     };
-
   };
 }
