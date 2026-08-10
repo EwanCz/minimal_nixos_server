@@ -1,7 +1,5 @@
 {
-
-  # nixos-anywhere --flake . --generate-hardware-config nixos-generate-config ./nixos/hardware-configuration.nix <hostname>
-  description = "Server Tyrosse config";
+  description = "Miminal Server config";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -25,7 +23,7 @@
       ...
     }:
     {
-      nixosConfigurations.tyrosse = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.server = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           disko.nixosModules.disko

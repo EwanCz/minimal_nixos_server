@@ -32,7 +32,7 @@
     gc = {
       automatic = true;
       dates = "daily";
-      options = "--deletre-older-than 5d";
+      options = "--deletre-older-than 30d";
     };
   };
 
