@@ -1,4 +1,4 @@
-# Tyrosse Server
+# minimal nixos server
 
 Nix flake-based NixOS configuration for a personal server, deployed and updated remotely over SSH with [`nixos-anywhere`](https://github.com/nix-community/nixos-anywhere) and `nixos-rebuild`.
 
